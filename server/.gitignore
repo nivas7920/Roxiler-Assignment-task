@@ -1,0 +1,71 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build directories
+/build
+/dist
+/out
+
+# Cache
+.cache/
+.tmp/
+
+# Production
+/public/static
+
+# Coverage
+coverage/
+*.lcov
+
+# Debug files
+*.tsbuildinfo
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS specific
+*.swp
+*.swo
+*.bak
+
+# Parcel bundler cache
+.cache/
+.parcel-cache/
+
+# Next.js build output
+.next/
+
+# React Native
+.expo/
+.expo-shared/
+
+# MongoDB
+data/db/
+dump/
+
+# npm package lock
+package-lock.json
+yarn.lock
+
+.env

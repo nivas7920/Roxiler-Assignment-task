@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+.Stats{
+  background-color: rgb(209, 235, 244);
+  border-radius: 30px;
+
+}
+.statics{
+  background-color: rgb(118, 201, 229);
+  border-radius: 20px;
+
+}
+
+.table {
+  width: 100%;
+  background-color: rgb(250, 247, 244);
+  border-collapse: collapse; 
+}
+
+.table th, 
+.table td {
+  padding: 8px;
+  text-align: left; 
+  border: 1px solid #d3d3d3; 
+  background-color: #cdb0f800;
+}
+@media (max-width: 768px) {
+  .table {
+    font-size: 10px; 
+  }
+
+  .table th, 
+  .table td {
+    padding: 6px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .table {
+    font-size: 8px;
+  }
+
+  .table th, 
+  .table td {
+    padding: 4px; 
+  }
+}
+
